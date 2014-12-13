@@ -1,0 +1,13 @@
+DEFINED_PHASES=configure install postinst prepare setup
+DEPEND=virtual/pkgconfig
+DESCRIPTION=systemd units to provide minimal cron daemon functionality by running scripts in cron directories
+EAPI=5
+HOMEPAGE=https://github.com/dbent/systemd-cron/
+IUSE=cron-boot +etc-crontab yearly python_targets_pypy python_targets_python3_3 python_targets_python3_4 python_targets_python2_7 python_single_target_pypy python_single_target_python3_3 python_single_target_python3_4 python_single_target_python2_7
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=>=sys-apps/systemd-212 sys-apps/debianutils
+SLOT=0
+SRC_URI=https://github.com/dbent/systemd-cron/archive/v1.4.0.tar.gz -> systemd-cron-1.4.0.tar.gz
+_eclasses_=eutils	6faef4c127028ccbba3a11400d24ae34	multilib	3bf24e6abb9b76d9f6c20600f0b716bf	python-single-r1	cc5b6367244dc2070b496eb9a92d5b87	python-utils-r1	d5328656d500f65898a5f51634722f61	systemd	090342761f573a8280dd5aa6b0345f3b	toolchain-funcs	0dfbfa13f57c6184f4728d12ac002aac
+_md5_=9e38c6ecd37c867181d03ceb5f790c54
