@@ -1,0 +1,5 @@
+*genvuu-baseconf-0.1g (13 Dec 2014)
+
+  13 Dec 2014; Matthias Maier <tamiko@gentoo.org> +genvuu-baseconf-0.1g.ebuild,
+  +metadata.xml:
+  Initial version
