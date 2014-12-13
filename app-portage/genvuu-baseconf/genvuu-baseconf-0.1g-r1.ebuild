@@ -29,7 +29,7 @@ src_install() {
 		if [ ! "\${PN}" = "genvuu-baseconf" ]; then
 			einfo "Patching installed files..."
 			find "\${ED}" -type f -exec sed -i -e 's/gentoo/GenVUU/Ig' "{}" \;
-			find "\${ED}" -iname "*gentoo*" -execdir perl-rename 's/gentoo/GenVUU/Ig' "{}" +
+			find "\${ED}" -iname "*gentoo*" -depth -execdir perl-rename 's/gentoo/GenVUU/Ig' "{}" +
 		fi
 	}
 	EOF
