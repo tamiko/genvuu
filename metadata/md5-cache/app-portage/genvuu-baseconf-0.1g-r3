@@ -1,0 +1,9 @@
+DEFINED_PHASES=install unpack
+DESCRIPTION=GenVUU baseconf and portage hooks
+EAPI=5
+HOMEPAGE=http://genvuu.org
+KEYWORDS=amd64 x86
+LICENSE=GPL-2
+RDEPEND=sys-apps/sed dev-perl/rename
+SLOT=0
+_md5_=8033ae351749864b5d05970b8bb7a79b
